@@ -71,15 +71,16 @@ public class Main {
         System.out.println("В среднем на похудение у спортсмена может уйти " + totalDays3 + " дней.");
 
         int salaryMary1 = 67760;
-        float salaryMary2 = salaryMary1 * 0.10f + salaryMary1;
+        float increasePerYear = 1.1f;
+        float salaryMary2 = salaryMary1 * increasePerYear;
         float salaryMaryInYear = (salaryMary2 * 12) - (salaryMary1 * 12);
         System.out.println("Маша теперь получет " + salaryMary2 + " рублей. Годовой  доход вырос на " + salaryMaryInYear + " рублей.");
         int salaryDen1 = 83690;
-        float salaryDen2 = salaryDen1 * 0.10f + salaryDen1;
+        float salaryDen2 = salaryDen1 * increasePerYear;
         float salaryDenInYear = (salaryDen2 * 12) - (salaryDen1 * 12);
         System.out.println("Денис теперь получет " + salaryDen2 + " рублей. Годовой  доход вырос на " + salaryDenInYear + " рублей.");
         int salaryKris1 = 76230;
-        float salaryKris2 = salaryKris1 * 0.10f + salaryKris1;
+        float salaryKris2 = salaryKris1 * increasePerYear;
         float salaryKrisInYear = (salaryKris2 * 12) - (salaryKris1 * 12);
         System.out.println("Кристина теперь получет " + salaryKris2 + " рублей. Годовой  доход вырос на " + salaryKrisInYear + " рублей.");
 
